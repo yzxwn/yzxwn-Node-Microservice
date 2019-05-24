@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo1</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Node微服务--进阶</h1>
+    ========================================
+    <div>
+        <h3>转发post请求和json参数</h3>
+        转发地址：<textarea id="postUrl" style="width:500px">https://kxt2b.9itest.com/frontend/learn/course/info/get</textarea>
+        <br/>
+        转发参数：<textarea id="postDate" style="width:500px">{"courseId":2108}</textarea>
+        <br/>
+        返回结果：<textarea id="postResult" style="width:500px;height:100px"></textarea>
+        <br/>
+        发送：
+        <button onclick="postHello()">post</button>
+        <button onclick="axiosPostHello()">axios-post</button>
+    </div>
+    <div>
+        <h3>下载本地文件</h3>
+        <button onclick="downHello()">下载</button>
+    </div>
+    <br/>
+    <div>
+        <h3>==========================进阶计划===========================</h3>
+        <b>已完成</b>
+        <ul>
+            <li>本地代码热更新</li>
+            <li>中间层开发：转发post请求和json参数</li>
+            <li>文件下载</li>
+        </ul>
+        <b>未执行</b>
+        <ul>
+            <li>中间层开发：请求合并</li>
+            <li>模拟数据接口</li>
+            <li>SSR</li>
+            <li>redis缓存</li>
+            <li>负载均衡</li>
+            <li>数据库连接</li>
+            <li>监控</li>
+            <li>部署</li>
+            <li>API服务</li>
+            <li>日志服务</li>
+            <li>模拟项目构建工具：webpack</li>
+            <li>......</li>
+        </ul>
+    </div>
+    <script src="index.js" id="myJs"></script>
+</body>
+</html>
